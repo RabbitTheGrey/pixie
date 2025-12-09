@@ -9,10 +9,10 @@ Middleware условно разделены на *глобальные* и *р�
 Роутовые подключаются при объявлении маршрута, как в примере выше:
 ```go
 import (
-	"gofman/handler/controller/example"
-	"gofman/handler/middleware/routes_middleware"
-	mw "gofman/lib/http/middleware"
-	"gofman/lib/http/router"
+	"pixie/handler/controller/example"
+	"pixie/handler/middleware/routes_middleware"
+	mw "pixie/lib/http/middleware"
+	"pixie/lib/http/router"
 )
 
 func RegisterRoutes(r *router.Router) {
